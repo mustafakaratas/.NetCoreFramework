@@ -19,7 +19,7 @@ namespace Business.Concrete
 
         public IDataResult<Product> GetById(int productId)
         {
-            throw new System.NotImplementedException();
+            return new SuccessDataResult<Product>(_productRepository.Get(x => x.ProductId == productId));
         }
 
         public IDataResult<List<Product>> GetList()

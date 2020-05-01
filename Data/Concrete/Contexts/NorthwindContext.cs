@@ -10,6 +10,6 @@ namespace Data.Concrete.Contexts
             optionsBuilder.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=Northwind;Trusted_Connection=true");
         }
 
-        public DbSet<Product> ProductSet { get; set; }
+        public DbSet<Product> Products { get; set; }
     }
 }
