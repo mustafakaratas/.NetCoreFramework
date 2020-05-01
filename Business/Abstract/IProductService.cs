@@ -1,16 +1,16 @@
-﻿using Entities.Concrete;
-using System;
+﻿using Core.Utilities.Result;
+using Entities.Concrete;
 using System.Collections.Generic;
-using System.Text;
 
 namespace Business.Abstract
 {
     public interface IProductService
     {
-        List<Product> GetList();
-        List<Product> GetListByCategory(int categoryId);
-        Product Add(Product product);
-        Product Delete(Product product);
-        Product Update(Product product);
+        IDataResult<Product> GetById(int productId);
+        IDataResult<List<Product>> GetList();
+        IDataResult<List<Product>> GetListByCategoryId(int categoryId);
+        IDataResult<Product> Add(Product product);
+        IResult Delete(Product product);
+        IDataResult<Product> Update(Product product);
     }
 }

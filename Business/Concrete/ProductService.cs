@@ -1,10 +1,10 @@
 ﻿using Business.Abstract;
+using Business.Common.Constants;
+using Core.Utilities.Result;
 using Data.Abstract;
 using Entities.Concrete;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace Business.Concrete
 {
@@ -17,29 +17,35 @@ namespace Business.Concrete
             _productRepository = productRepository;
         }
 
-        public Product Add(Product product)
+        public IDataResult<Product> GetById(int productId)
         {
-            return _productRepository.Add(product);
+            throw new System.NotImplementedException();
         }
 
-        public Product Delete(Product product)
+        public IDataResult<List<Product>> GetList()
         {
-            return _productRepository.Delete(product);
+            return new SuccessDataResult<List<Product>>(_productRepository.GetAll().ToList());
         }
 
-        public List<Product> GetList()
+        public IDataResult<List<Product>> GetListByCategoryId(int categoryId)
         {
-            return _productRepository.GetAll().ToList();
+            return new SuccessDataResult<List<Product>>(_productRepository.GetAll(x => x.CategoryId == categoryId).ToList());
         }
 
-        public List<Product> GetListByCategory(int categoryId)
+        public IDataResult<Product> Add(Product product)
         {
-            return _productRepository.GetAll(x => x.CategoryId == categoryId).ToList();
+            return new SuccessDataResult<Product>(_productRepository.Add(product));
         }
 
-        public Product Update(Product product)
+        public IResult Delete(Product product)
         {
-            return _productRepository.Update(product);
+            _productRepository.Delete(product);
+            return new SuccessResult(string.Format(Messages.ProductDeleted, product.ProductId));
+        }
+
+        public IDataResult<Product> Update(Product product)
+        {
+            return new SuccessDataResult<Product>(_productRepository.Update(product));
         }
     }
 }
