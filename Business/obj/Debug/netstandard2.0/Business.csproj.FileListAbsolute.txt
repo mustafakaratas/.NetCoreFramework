@@ -1,0 +1,8 @@
+D:\VisualStudio.NetProjects\20_04_26_.NetCoreFramework\Business\bin\Debug\netstandard2.0\Business.deps.json
+D:\VisualStudio.NetProjects\20_04_26_.NetCoreFramework\Business\bin\Debug\netstandard2.0\Business.dll
+D:\VisualStudio.NetProjects\20_04_26_.NetCoreFramework\Business\bin\Debug\netstandard2.0\Business.pdb
+D:\VisualStudio.NetProjects\20_04_26_.NetCoreFramework\Business\obj\Debug\netstandard2.0\Business.csproj.CoreCompileInputs.cache
+D:\VisualStudio.NetProjects\20_04_26_.NetCoreFramework\Business\obj\Debug\netstandard2.0\Business.AssemblyInfoInputs.cache
+D:\VisualStudio.NetProjects\20_04_26_.NetCoreFramework\Business\obj\Debug\netstandard2.0\Business.AssemblyInfo.cs
+D:\VisualStudio.NetProjects\20_04_26_.NetCoreFramework\Business\obj\Debug\netstandard2.0\Business.dll
+D:\VisualStudio.NetProjects\20_04_26_.NetCoreFramework\Business\obj\Debug\netstandard2.0\Business.pdb

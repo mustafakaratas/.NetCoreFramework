@@ -1,0 +1,12 @@
+D:\VisualStudio.NetProjects\20_04_26_.NetCoreFramework\Entities\bin\Debug\netstandard2.0\Entities.deps.json
+D:\VisualStudio.NetProjects\20_04_26_.NetCoreFramework\Entities\bin\Debug\netstandard2.0\Entities.dll
+D:\VisualStudio.NetProjects\20_04_26_.NetCoreFramework\Entities\bin\Debug\netstandard2.0\Entities.pdb
+D:\VisualStudio.NetProjects\20_04_26_.NetCoreFramework\Entities\bin\Debug\netstandard2.0\Core.dll
+D:\VisualStudio.NetProjects\20_04_26_.NetCoreFramework\Entities\bin\Debug\netstandard2.0\Core.pdb
+D:\VisualStudio.NetProjects\20_04_26_.NetCoreFramework\Entities\obj\Debug\netstandard2.0\Entities.csprojAssemblyReference.cache
+D:\VisualStudio.NetProjects\20_04_26_.NetCoreFramework\Entities\obj\Debug\netstandard2.0\Entities.csproj.CoreCompileInputs.cache
+D:\VisualStudio.NetProjects\20_04_26_.NetCoreFramework\Entities\obj\Debug\netstandard2.0\Entities.AssemblyInfoInputs.cache
+D:\VisualStudio.NetProjects\20_04_26_.NetCoreFramework\Entities\obj\Debug\netstandard2.0\Entities.AssemblyInfo.cs
+D:\VisualStudio.NetProjects\20_04_26_.NetCoreFramework\Entities\obj\Debug\netstandard2.0\Entities.csproj.CopyComplete
+D:\VisualStudio.NetProjects\20_04_26_.NetCoreFramework\Entities\obj\Debug\netstandard2.0\Entities.dll
+D:\VisualStudio.NetProjects\20_04_26_.NetCoreFramework\Entities\obj\Debug\netstandard2.0\Entities.pdb
