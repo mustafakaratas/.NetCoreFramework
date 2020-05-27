@@ -1,7 +1,9 @@
 ﻿using Core.Entities;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Entities.Concrete
 {
+    [Table("Products")]
     public class Product : IEntity
     {
         public int ProductId { get; set; }
