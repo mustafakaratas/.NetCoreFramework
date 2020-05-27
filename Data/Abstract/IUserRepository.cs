@@ -1,5 +1,5 @@
 ﻿using Core.Data.Abstract;
-using Entities.Concrete;
+using Core.Entities.Concrete;
 using System.Collections.Generic;
 
 namespace Data.Abstract

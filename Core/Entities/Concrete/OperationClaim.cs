@@ -1,7 +1,6 @@
-﻿using Core.Entities;
-using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Entities.Concrete
+namespace Core.Entities.Concrete
 {
     [Table("OperationClaims")]
     public class OperationClaim : IEntity

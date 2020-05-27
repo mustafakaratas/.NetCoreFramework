@@ -1,7 +1,7 @@
 ﻿using Core.Data.Concrete;
+using Core.Entities.Concrete;
 using Data.Abstract;
 using Data.Concrete.Contexts;
-using Entities.Concrete;
 using System.Collections.Generic;
 using System.Linq;
 
