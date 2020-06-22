@@ -1,3 +1,7 @@
+D:\VisualStudio.NetProjects\20_04_26_.NetCoreFramework\WebAPI\obj\Debug\netcoreapp3.0\WebAPI.csproj.CoreCompileInputs.cache
+D:\VisualStudio.NetProjects\20_04_26_.NetCoreFramework\WebAPI\obj\Debug\netcoreapp3.0\WebAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\VisualStudio.NetProjects\20_04_26_.NetCoreFramework\WebAPI\obj\Debug\netcoreapp3.0\WebAPI.AssemblyInfoInputs.cache
+D:\VisualStudio.NetProjects\20_04_26_.NetCoreFramework\WebAPI\obj\Debug\netcoreapp3.0\WebAPI.AssemblyInfo.cs
 D:\VisualStudio.NetProjects\20_04_26_.NetCoreFramework\WebAPI\bin\Debug\netcoreapp3.0\appsettings.Development.json
 D:\VisualStudio.NetProjects\20_04_26_.NetCoreFramework\WebAPI\bin\Debug\netcoreapp3.0\appsettings.json
 D:\VisualStudio.NetProjects\20_04_26_.NetCoreFramework\WebAPI\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
@@ -9,6 +13,12 @@ D:\VisualStudio.NetProjects\20_04_26_.NetCoreFramework\WebAPI\bin\Debug\netcorea
 D:\VisualStudio.NetProjects\20_04_26_.NetCoreFramework\WebAPI\bin\Debug\netcoreapp3.0\WebAPI.pdb
 D:\VisualStudio.NetProjects\20_04_26_.NetCoreFramework\WebAPI\bin\Debug\netcoreapp3.0\Autofac.dll
 D:\VisualStudio.NetProjects\20_04_26_.NetCoreFramework\WebAPI\bin\Debug\netcoreapp3.0\Autofac.Extensions.DependencyInjection.dll
+D:\VisualStudio.NetProjects\20_04_26_.NetCoreFramework\WebAPI\bin\Debug\netcoreapp3.0\Castle.Core.dll
+D:\VisualStudio.NetProjects\20_04_26_.NetCoreFramework\WebAPI\bin\Debug\netcoreapp3.0\Castle.Services.Logging.NLogIntegration.dll
+D:\VisualStudio.NetProjects\20_04_26_.NetCoreFramework\WebAPI\bin\Debug\netcoreapp3.0\Castle.Services.Logging.log4netIntegration.dll
+D:\VisualStudio.NetProjects\20_04_26_.NetCoreFramework\WebAPI\bin\Debug\netcoreapp3.0\Castle.DynamicProxy2.dll
+D:\VisualStudio.NetProjects\20_04_26_.NetCoreFramework\WebAPI\bin\Debug\netcoreapp3.0\FluentValidation.dll
+D:\VisualStudio.NetProjects\20_04_26_.NetCoreFramework\WebAPI\bin\Debug\netcoreapp3.0\log4net.dll
 D:\VisualStudio.NetProjects\20_04_26_.NetCoreFramework\WebAPI\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\VisualStudio.NetProjects\20_04_26_.NetCoreFramework\WebAPI\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Razor.Language.dll
 D:\VisualStudio.NetProjects\20_04_26_.NetCoreFramework\WebAPI\bin\Debug\netcoreapp3.0\Microsoft.Bcl.AsyncInterfaces.dll
@@ -49,6 +59,7 @@ D:\VisualStudio.NetProjects\20_04_26_.NetCoreFramework\WebAPI\bin\Debug\netcorea
 D:\VisualStudio.NetProjects\20_04_26_.NetCoreFramework\WebAPI\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
 D:\VisualStudio.NetProjects\20_04_26_.NetCoreFramework\WebAPI\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 D:\VisualStudio.NetProjects\20_04_26_.NetCoreFramework\WebAPI\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+D:\VisualStudio.NetProjects\20_04_26_.NetCoreFramework\WebAPI\bin\Debug\netcoreapp3.0\NLog.dll
 D:\VisualStudio.NetProjects\20_04_26_.NetCoreFramework\WebAPI\bin\Debug\netcoreapp3.0\NuGet.Frameworks.dll
 D:\VisualStudio.NetProjects\20_04_26_.NetCoreFramework\WebAPI\bin\Debug\netcoreapp3.0\System.Collections.Immutable.dll
 D:\VisualStudio.NetProjects\20_04_26_.NetCoreFramework\WebAPI\bin\Debug\netcoreapp3.0\System.ComponentModel.Annotations.dll
@@ -132,10 +143,6 @@ D:\VisualStudio.NetProjects\20_04_26_.NetCoreFramework\WebAPI\bin\Debug\netcorea
 D:\VisualStudio.NetProjects\20_04_26_.NetCoreFramework\WebAPI\bin\Debug\netcoreapp3.0\Entities.pdb
 D:\VisualStudio.NetProjects\20_04_26_.NetCoreFramework\WebAPI\bin\Debug\netcoreapp3.0\Data.pdb
 D:\VisualStudio.NetProjects\20_04_26_.NetCoreFramework\WebAPI\obj\Debug\netcoreapp3.0\WebAPI.csprojAssemblyReference.cache
-D:\VisualStudio.NetProjects\20_04_26_.NetCoreFramework\WebAPI\obj\Debug\netcoreapp3.0\WebAPI.csproj.CoreCompileInputs.cache
-D:\VisualStudio.NetProjects\20_04_26_.NetCoreFramework\WebAPI\obj\Debug\netcoreapp3.0\WebAPI.MvcApplicationPartsAssemblyInfo.cache
-D:\VisualStudio.NetProjects\20_04_26_.NetCoreFramework\WebAPI\obj\Debug\netcoreapp3.0\WebAPI.AssemblyInfoInputs.cache
-D:\VisualStudio.NetProjects\20_04_26_.NetCoreFramework\WebAPI\obj\Debug\netcoreapp3.0\WebAPI.AssemblyInfo.cs
 D:\VisualStudio.NetProjects\20_04_26_.NetCoreFramework\WebAPI\obj\Debug\netcoreapp3.0\WebAPI.RazorTargetAssemblyInfo.cache
 D:\VisualStudio.NetProjects\20_04_26_.NetCoreFramework\WebAPI\obj\Debug\netcoreapp3.0\WebAPI.csproj.CopyComplete
 D:\VisualStudio.NetProjects\20_04_26_.NetCoreFramework\WebAPI\obj\Debug\netcoreapp3.0\staticwebassets\WebAPI.StaticWebAssets.Manifest.cache
