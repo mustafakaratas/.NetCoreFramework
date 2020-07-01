@@ -19,8 +19,6 @@ namespace Business.Validation.FluentValidation
                    .NotEmpty()
                    .WithMessage(Messages.ProductNameNotEmpty);
                });
-
-
         }
     }
 }

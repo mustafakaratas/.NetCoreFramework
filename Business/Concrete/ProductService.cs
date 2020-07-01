@@ -1,11 +1,10 @@
 ﻿using Business.Abstract;
 using Business.Common.Constants;
 using Business.Validation.FluentValidation;
-using Core.CrossCuttingConcerns.Validation;
+using Core.Aspects.AutoFac.Validation;
 using Core.Utilities.Result;
 using Data.Abstract;
 using Entities.Concrete;
-using FluentValidation;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -35,7 +34,7 @@ namespace Business.Concrete
             return new SuccessDataResult<List<Product>>(_productRepository.GetAll(x => x.CategoryId == categoryId).ToList());
         }
 
-        //[ValidationAspect(typeof(AddProductValidator))]
+        [ValidationAspect(typeof(AddProductValidator))]
         public IDataResult<Product> Add(Product product)
         {
             return new SuccessDataResult<Product>(_productRepository.Add(product));
