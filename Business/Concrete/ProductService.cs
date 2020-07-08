@@ -1,6 +1,7 @@
 ﻿using Business.Abstract;
 using Business.Common.Constants;
 using Business.Validation.FluentValidation;
+using Core.Aspects.AutoFac.Transaction;
 using Core.Aspects.AutoFac.Validation;
 using Core.Utilities.Result;
 using Data.Abstract;
@@ -34,7 +35,7 @@ namespace Business.Concrete
             return new SuccessDataResult<List<Product>>(_productRepository.GetAll(x => x.CategoryId == categoryId).ToList());
         }
 
-        [ValidationAspect(typeof(AddProductValidator))]
+        [ValidationAspect(typeof(AddProductValidator), Priority = 1)]
         public IDataResult<Product> Add(Product product)
         {
             return new SuccessDataResult<Product>(_productRepository.Add(product));
@@ -49,6 +50,14 @@ namespace Business.Concrete
         public IDataResult<Product> Update(Product product)
         {
             return new SuccessDataResult<Product>(_productRepository.Update(product));
+        }
+
+        [TransactionScopeAspect]
+        public IResult TransactionTest(Product product)
+        {
+            _productRepository.Update(product);
+            _productRepository.Add(product);
+            return new SuccessResult(Messages.ProductUpdated);
         }
     }
 }

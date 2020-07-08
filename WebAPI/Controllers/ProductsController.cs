@@ -30,7 +30,7 @@ namespace WebAPI.Controllers
         }
 
         [HttpGet("getlist")]
-        [Authorize(Roles ="LoginUser")]
+        [Authorize(Roles = "LoginUser")]
         public IActionResult GetList()
         {
             var result = _productService.GetList();
@@ -86,6 +86,19 @@ namespace WebAPI.Controllers
         public IActionResult Delete(Product product)
         {
             var result = _productService.Delete(product);
+
+            if (result.IsSuccess)
+            {
+                return Ok(result.Message);
+            }
+
+            return BadRequest(result.Message);
+        }
+
+        [HttpPut("transactiontest")]
+        public IActionResult Test(Product product)
+        {
+            var result = _productService.TransactionTest(product);
 
             if (result.IsSuccess)
             {
