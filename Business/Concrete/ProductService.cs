@@ -1,6 +1,7 @@
 ﻿using Business.Abstract;
 using Business.Common.Constants;
 using Business.Validation.FluentValidation;
+using Core.Aspects.AutoFac.Caching;
 using Core.Aspects.AutoFac.Transaction;
 using Core.Aspects.AutoFac.Validation;
 using Core.Utilities.Result;
@@ -30,12 +31,14 @@ namespace Business.Concrete
             return new SuccessDataResult<List<Product>>(_productRepository.GetAll().ToList());
         }
 
+        [CacheAspect(duration: 1440)]
         public IDataResult<List<Product>> GetListByCategoryId(int categoryId)
         {
             return new SuccessDataResult<List<Product>>(_productRepository.GetAll(x => x.CategoryId == categoryId).ToList());
         }
 
         [ValidationAspect(typeof(AddProductValidator), Priority = 1)]
+        [CacheRemoveAspect(pattern: "IProductService.Get")]
         public IDataResult<Product> Add(Product product)
         {
             return new SuccessDataResult<Product>(_productRepository.Add(product));
