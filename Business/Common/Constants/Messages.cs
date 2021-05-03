@@ -9,5 +9,6 @@
         public static string ProductNameNotEmpty = "Ürün ismi boş olamaz";
         public static string RequestNotEmpty = "Bu alan boş geçilemez";
         public static string ProductUpdated = "Product güncellendi";
+        public static string AuthorizationDenied = "Bu işlem için yetkiniz bulunmuyor";
     }
 }

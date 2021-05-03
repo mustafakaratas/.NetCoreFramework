@@ -1,14 +1,19 @@
 ﻿using Business.Abstract;
+using Business.Aspects.Autofac;
 using Business.Common.Constants;
 using Business.Validation.FluentValidation;
 using Core.Aspects.AutoFac.Caching;
+using Core.Aspects.AutoFac.Logging;
+using Core.Aspects.AutoFac.Performance;
 using Core.Aspects.AutoFac.Transaction;
 using Core.Aspects.AutoFac.Validation;
+using Core.CrossCuttingConcerns.Logging.Log4Net.Loggers;
 using Core.Utilities.Result;
 using Data.Abstract;
 using Entities.Concrete;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
 
 namespace Business.Concrete
 {
@@ -31,7 +36,10 @@ namespace Business.Concrete
             return new SuccessDataResult<List<Product>>(_productRepository.GetAll().ToList());
         }
 
-        [CacheAspect(duration: 1440)]
+        //[CacheAspect(duration: 1440)]
+        //[SecuredOperation("LoginUser")]
+        //[PerformanceAspect(interval: 5)]
+        [LogAspect(typeof(DatabaseLogger))]
         public IDataResult<List<Product>> GetListByCategoryId(int categoryId)
         {
             return new SuccessDataResult<List<Product>>(_productRepository.GetAll(x => x.CategoryId == categoryId).ToList());

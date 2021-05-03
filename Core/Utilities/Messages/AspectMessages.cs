@@ -3,5 +3,6 @@
     public class AspectMessages
     {
         public static string WrongValidationType = "WrongValidationType";
+        public static string WrongLoggerType = "WrongLoggerType";
     }
 }
